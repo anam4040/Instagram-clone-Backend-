@@ -74,7 +74,7 @@ router.post("/signin", (req,res) =>{
 
               
               res.json({jwttoken,user:{_id,name,email,userName}})
-              console.log({jwttoken,user:{_id,name,email,userName}})
+             
 
              } else {
                 return res.status(422).json
